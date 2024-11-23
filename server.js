@@ -7,6 +7,7 @@ const cors = require("cors");
 const app = express();
 const PORT = 3000; // You can change this to any available port
 app.use(express.json());
+
 // Middleware
 app.get("/", (req, res)=>{
   res.send("server is running!");
